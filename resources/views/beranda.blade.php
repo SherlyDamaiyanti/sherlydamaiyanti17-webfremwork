@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Offcanvas navbar template · Bootstrap v5.0</title>
+    <title>Beranda SMANSA Kurun</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/offcanvas-navbar/">
 
@@ -39,7 +39,7 @@
     
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Offcanvas navbar</a>
+    <a class="navbar-brand" href="#">SMANSA Kurun</a>
     <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -47,10 +47,10 @@
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+          <a class="nav-link " aria-current="page" href="{{ url('') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Notifications</a>
+          <a class="nav-link active" href="{{ url('beranda') }}">Beranda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Profile</a>
